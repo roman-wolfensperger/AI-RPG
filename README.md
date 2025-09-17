@@ -86,9 +86,9 @@ jdr-ai/
 ### Phase 1: Basic Prototype (Current)
 - [x] Complete web interface
 - [x] Multilingual support
-- [ ] Node.js backend server
-- [ ] Ollama integration
-- [ ] Basic AI conversation
+- [x] Node.js backend server
+- [x] Ollama integration
+- [x] Basic AI conversation
 
 ### Phase 2: Content Integration
 - [ ] RPG manual processing (PDF extraction)
