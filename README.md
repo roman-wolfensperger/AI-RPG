@@ -19,19 +19,43 @@ An AI-powered tabletop RPG system that allows you to play solo adventures with a
 - ✅ Dice roller (d4, d6, d8, d10, d12, d20, d100)
 - ✅ Character stats display
 - ✅ Inventory and quest management
-- 🔄 Backend server integration (Next)
-- 🔄 Ollama AI integration (Next)
+- ✅ Backend server integration (Next)
+- ✅ Ollama AI integration (Next)
 
 ## 📁 Project Structure
 
 ```
 jdr-ai/
 ├── frontend/
-│   └── index.html          # Main interface
-├── backend/                # Node.js server (Coming soon)
+│   ├── index.html          # Main interface
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── js/
+│   │   │   └── app.js
+│   │   └── images/
+│   │       ├── scenes/
+│   │       ├── characters/
+│   │       └── items/
+├── backend/
+│   ├── server.js           # Node.js server
+│   ├── routes/
+│   │   ├── chat.js
+│   │   └── dice.js
+│   ├── prompts/
+│   │   ├── master-prompts.js
+│   │   └── game-rules.js
+│   └── data/
+│       ├── characters/
+│       ├── scenarios/
+│       └── rules/
 ├── docs/                   # RPG manuals and extracted content
+│   ├── pdfs/
+│   ├── extracted-text/
+│   └── images/
+├── package.json
 ├── README.md
-└── package.json
+└── .gitignore
 ```
 
 ## 🚀 Quick Start
